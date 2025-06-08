@@ -4,4 +4,5 @@ WORKDIR /app
 
 COPY . .
 
+# Install dependencies
 CMD node hello.js
